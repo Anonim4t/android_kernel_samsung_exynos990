@@ -14596,7 +14596,7 @@
 		interrupts = <0x00 0xb3 0x04>;
 		sibling-cpus = "6-7";
 		down-step = <0x01>;
-		max-freq-wo-ocp = <0x1e8c50>;
+		max-freq-wo-ocp = <0x24e550>; // 0x1e8c50
 		release-mode = <0x01>;
 		release-threshold = <0x32>;
 		release-duration = <0x0f>;
@@ -14714,7 +14714,7 @@
 			stall-pct-thr = <0x00>;
 			pm-qos-min-class = <0x05>;
 			pm-qos-max-class = <0x06>;
-			pm-qos-max-freq = <0x21b8d0>;
+			pm-qos-max-freq = <0x249f00>; // 0x21b8d0
 		};
 
 		cl2 {
